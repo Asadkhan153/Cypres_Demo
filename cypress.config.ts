@@ -16,7 +16,7 @@ export default defineConfig({
       host: 'localhost',
       user: 'root',
       password: '',
-      database: 'cypress_test',
+      database: 'cypress_test', 
     },
   },
   e2e: {

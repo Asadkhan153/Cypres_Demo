@@ -40,4 +40,4 @@ https://nodejs.org/es/download/
 
 ## 🚀 Install the project
 
-Install project dependencies with: npm install
+Install project dependencies with: npm install 
