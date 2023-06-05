@@ -15,7 +15,7 @@ it("Lighthouse Testing", () => {
         mobile: false,
         disable: false,
         width: Cypress.config("viewportWidth"),
-        height: Cypress.config("viewportHeight"),
+        height: Cypress.config("viewportHeight"), 
         deviceScaleRatio: 1,
       },
     }

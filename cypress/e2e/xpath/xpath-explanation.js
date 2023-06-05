@@ -12,7 +12,7 @@
    // -> Select Current Node
    Tagname -> Tagname of the particular node.
    @ -> Select attribute
-   Attribute -> Attribute name of the node
+   Attribute -> Attribute name of the node 
    Value -> Value of the attribute    
 */
 

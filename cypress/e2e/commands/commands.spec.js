@@ -10,7 +10,7 @@
     describe('Commands Example', function(){
 
         beforeEach(function(){
-            cy.visit('https://www.saucedemo.com/')
+            cy.visit('https://www.saucedemo.com/') 
  
         })
 

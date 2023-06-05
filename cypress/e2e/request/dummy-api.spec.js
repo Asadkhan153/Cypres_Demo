@@ -13,7 +13,7 @@ describe('Scheduled Searches - Endpoint API Test - DEMO', function () {
         cy.request('POST','test', ss)
         .should(response => { 
            expect(response.status).to.equal(200)
-           expect(response.statusText).to.equal('OK')
+           expect(response.statusText).to.equal('OK') 
            expect(response.headers['content-type']).to.include('application/json')
            expect(response.body).to.have.any.keys('id', 'type', 'active', 'name', 'range', 'schedule', 'userId', 'timezone', 'lastChangeDate','createdAt', 'data', 'type', 'start', 'end','occurrences', 'templateSearchId', 'overrideResults', 'dateTimeFormat')
            

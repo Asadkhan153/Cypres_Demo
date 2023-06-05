@@ -14,7 +14,7 @@ describe('Intercept Demo', () => {
         .and('contain', 'wash dishes')
     });
 
-    it('Mocked API Response', ()=> {
+    it('Mocked API Response', ()=> { 
 
         cy.intercept('GET', '/todos', {
             fixture: 'intercept/interceptFixture.json'

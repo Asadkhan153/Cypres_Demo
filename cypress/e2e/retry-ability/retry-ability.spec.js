@@ -11,7 +11,7 @@ describe('Retry-Ability Session', function(){
         //Get -> Get one or more DOM elements by selector or alias.
         cy.get('.new-todo')                 // command - Get one or more DOM elements by selector or alias.
           .type('todo A{enter}')            // command
-          .type('todo B{enter}')            // command
+          .type('todo B{enter}')            // command 
     });
 
     //✅ If the assertion that follows the cy.get() command passes, then the command finishes successfully.

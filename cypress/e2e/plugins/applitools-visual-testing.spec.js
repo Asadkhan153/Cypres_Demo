@@ -12,7 +12,7 @@ describe('Demo - Applitools', () => {
 
         cy.eyesOpen({
             appName: 'App Demo',
-            batchName: 'Batch Name #1',
+            batchName: 'Batch Name #1', 
             browser: [
                 {deviceName: 'iPhone X', screenOrientation: 'portrait'},
                 {name: 'chrome', width: 1024, height: 768}

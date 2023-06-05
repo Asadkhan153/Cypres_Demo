@@ -14,7 +14,7 @@ describe('POM Implementation', () => {
         inventoryPage.elements.titleSpan().should('have.text', 'Productss')
     });
 
-    it('should display locked out message', () => {
+    it('should display locked out message', () => { 
         homeSaucePage.typeUsername('locked_out_user');
         homeSaucePage.typePassword('secret_sauce');
         homeSaucePage.clickLogin();

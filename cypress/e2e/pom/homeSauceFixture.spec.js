@@ -15,7 +15,7 @@ describe('Home Sauce Demo', () => {
 
             homeSaucePage.typeUsername(test.username);
             homeSaucePage.typePassword(test.password);
-            homeSaucePage.clickLogin();
+            homeSaucePage.clickLogin(); 
 
             if(test.name === 'should login to inventory page'){
                 inventoryPage.elements.titleSpan().should('have.text', test.expected)

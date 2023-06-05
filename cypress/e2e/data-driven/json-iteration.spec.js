@@ -10,7 +10,7 @@ describe('Data Driven Test reading data from a JSON file', function(){
 
     tests.forEach(test => {
 
-        it(test.name, function(){
+        it(test.name, function(){ 
 
             cy.get('[data-test="username"]').type(test.username);
             cy.get('[data-test="password"]').type(test.password);

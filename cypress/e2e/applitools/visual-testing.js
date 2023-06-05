@@ -32,5 +32,6 @@ describe("AppTest", () => {
         // Call Close on eyes to let the server know it should display the results
         cy.eyesClose()
     });
+    
 
 });

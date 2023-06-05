@@ -15,7 +15,7 @@ describe("DB Testing", function () {
       `INSERT INTO movies VALUES ("Joker", "psychological thriller", "Todd Phillips", 2019),("The Batman", "action", "Matt Reeves", 2022);`
     ).then((result) => {
       expect(result.affectedRows).to.equal(2);
-    });
+    }); 
   });
   it("Select all movies", function () {
     cy.task("queryDb", `SELECT * FROM movies;`).then((result) => {

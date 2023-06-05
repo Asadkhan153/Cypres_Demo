@@ -14,7 +14,7 @@
 console.log('Test')
 
 
-describe('Hooks Demo', function (){
+describe('Hooks Demo', function (){ 
 
     before(function(){
         cy.log('This code will be executed once before any test execution')

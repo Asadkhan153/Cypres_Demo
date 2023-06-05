@@ -13,7 +13,7 @@ describe('Location Demo', function(){
     })
 
     it('should be HTTPS',function(){
-        cy.location('protocol').should('contains', 'https');
+        cy.location('protocol').should('contains', 'https'); 
     });
 
     it('the hostname should be www.saucedemo.com', function(){

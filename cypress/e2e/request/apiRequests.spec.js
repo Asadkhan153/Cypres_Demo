@@ -19,7 +19,7 @@ const todoObject = {
     "id": "3"
 }
 
-const patchObject = {
+const patchObject = { 
     "title": "NewTodoFromPost",
     "completed": true,
     "id": "3"

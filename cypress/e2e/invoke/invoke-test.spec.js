@@ -15,7 +15,7 @@ describe('Invoke Test Scripts', function(){
         cy.get('#simpleLink').invoke('attr', 'target').then(target => cy.log(target))
 
         //There is a direct way to validate this with an assertion
-        cy.get('#simpleLink').should('have.attr', 'target', '_blank')
+        cy.get('#simpleLink').should('have.attr', 'target', '_blank') 
         
     })
 

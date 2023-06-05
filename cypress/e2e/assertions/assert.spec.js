@@ -12,7 +12,7 @@ describe('Assertion Demo', () => {
         cy.visit('https://demoqa.com/radio-button')
     });
 
-    it('TDD Assertions', () => {
+    it('TDD Assertions', () => { 
 
         cy.log('-- Length Check');
         cy.get('input[type="radio"]').should('have.length', 3);

@@ -12,7 +12,7 @@ describe('Button Actions (regression)', { tags: '@regressionTag' },() => {
 
     });
 
-    it('Right Click', () => {
+    it('Right Click', () => { 
 
         cy.get('#rightClickBtn').rightclick()
         cy.get('#rightClickMessage').should('have.text', 'You have done a right click')

@@ -29,9 +29,7 @@ We reviewed topics like:
 - [X] Jenkinsfile added.
 - [X] Github Actions & Gitlab CI/CD yml files.
 - [X] Typescript Configuration
-- [X] Visual Testing with Applitools
-- [X] Database Testing using SQL
-- [X] Lighthouse integration
+
 
  
 - ## 💻 Pre-requisites
@@ -42,4 +40,4 @@ https://nodejs.org/es/download/
 
 ## 🚀 Install the project
 
-Install project dependencies with: npm i 
+Install project dependencies with: npm install

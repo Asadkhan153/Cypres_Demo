@@ -16,7 +16,7 @@ describe('Basic API Testing - Part #1', () => {
 
     cy.request('http://localhost:3000/todos')
     .its('body')
-    .should('have.length', 2)
+    .should('have.length', 2) 
     
   });
 

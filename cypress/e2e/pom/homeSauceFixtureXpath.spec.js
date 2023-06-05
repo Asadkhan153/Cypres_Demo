@@ -12,7 +12,7 @@ describe('Home Sauce Demo', () => {
 
     tests.forEach(test => {
 
-        it(test.name, function(){
+        it(test.name, function(){ 
 
             homeSaucePage.typeUsername(test.username);
             homeSaucePage.typePassword(test.password);

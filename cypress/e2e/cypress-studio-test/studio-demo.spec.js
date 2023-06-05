@@ -13,7 +13,7 @@ it('Web-tables-demo', function() {
   cy.get('#age').type('50');
   cy.get('#salary').clear();
   cy.get('#salary').type('5000');
-  cy.get('#department').clear();
+  cy.get('#department').clear(); 
   cy.get('#department').type('Sales');
   /* ==== End Cypress Studio ==== */
   /* ==== Generated with Cypress Studio ==== */

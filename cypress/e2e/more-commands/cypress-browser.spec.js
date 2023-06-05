@@ -12,7 +12,7 @@ describe('4 Commands Probably You Did NOT Know', () => {
        cy.log(Cypress.browser.isHeaded)
        cy.log(Cypress.browser.isHeadless)
        cy.log(Cypress.browser.path)
-       cy.log(Cypress.browser.version)
+       cy.log(Cypress.browser.version) 
     });
 
     it('Check text depending on the browser', () => {

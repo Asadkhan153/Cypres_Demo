@@ -14,7 +14,7 @@ describe('Fixtures Demo (sanity)', { tags: '@sanityTag' }, function () {
         cy.get('[data-test="password"]').type(this.credentials.systemPassword);
         cy.get('[data-test="login-button"]').click();
 
-        cy.get('.title').should('contain.text', 'Products')
+        cy.get('.title').should('contain.text', 'Products') 
     });
 
     it('Incorrect Username', function () {

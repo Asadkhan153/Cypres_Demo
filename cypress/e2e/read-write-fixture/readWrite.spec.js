@@ -16,7 +16,7 @@ describe('Write Fixture Demo', () => {
 
         const fileName = 'cypress/fixtures/read-write/read-write.json'
         
-        cy.request('GET', 'http://localhost:3000/todos')
+        cy.request('GET', 'http://localhost:3000/todos') 
         .its('body')
         .each($object => {
             cy.readFile(fileName).then((list) => {

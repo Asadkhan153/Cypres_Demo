@@ -15,7 +15,7 @@ describe('Locators in Cypress', function(){
 
     it('EQ|FIRST|LAST Method',  function(){
         cy.get('input').first().type(username);
-        cy.get('input').eq(1).type(password);
+        cy.get('input').eq(1).type(password); 
         cy.get('input').last().click();
     });
 

@@ -15,7 +15,7 @@ describe('Home Sauce Demo (regression,sanity)', { tags: ['@regressionTag', '@san
         it(test.name, function () {
 
             homeSaucePage.typeUsername(test.username);
-            homeSaucePage.typePassword(test.password);
+            homeSaucePage.typePassword(test.password); 
             homeSaucePage.clickLogin();
 
             if (test.name === 'should login to inventory page') {
